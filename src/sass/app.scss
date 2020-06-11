@@ -1,0 +1,16 @@
+@import 'common/base';
+@import 'common/panel';
+@import 'common/toolbar';
+@import 'common/icons';
+
+.rfd {
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $color-body;
+  canvas {
+    border: 1px solid #000;
+  }
+  .rfd-wrapper {
+    outline: 0;
+  }
+}

@@ -1,0 +1,40 @@
+$bg-btn: #eee;
+$border: #ddd;
+$color-btn: #666;
+$size: 30px;
+$spacing: 5px;
+$color-body: #333;
+
+.rfd-btn {
+  background-color: $bg-btn;
+  border: 1px solid $border;
+  margin-right: 2px;
+  color: $color-btn;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 14px;
+  outline: 0;
+  cursor: pointer;
+  &:hover {
+    color: darken($color-btn, 10%);
+    border-color: darken($border, 10%);
+    background-color: lighten($bg-btn, 2%);
+  }
+  &:focus {
+    color: darken($color-btn, 15%);
+    border-color: darken($border, 10%);
+    background-color: darken($bg-btn, 8%);
+  }
+  &.squared {
+    padding: 0;
+    width: $size;
+    height: $size;
+  }
+}
+.rfd-row {
+  display: flex;
+  margin-bottom: $spacing;
+  &.between {
+    justify-content: space-between;
+  }
+}
