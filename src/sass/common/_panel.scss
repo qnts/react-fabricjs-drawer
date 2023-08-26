@@ -21,7 +21,7 @@
   .rfd-property {
     display: flex;
     align-items: center;
-    margin: 0 -$spacing;
+    margin: 0 (-$spacing);
     padding: $spacing;
     label {
       flex: 1;
